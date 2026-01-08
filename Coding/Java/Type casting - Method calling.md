@@ -55,11 +55,11 @@ Graphic g = new Circle(); //Dynamic Type: Circle
 ```
 *Overriding (runtime --> **dynamic types**)* + *Overloading (compile-time --> **static types**)*
 
-| Aufruf                     | Methode |
-| -------------------------- | ------- |
-| **c.moveTo(g)**            |         |
-| **c.moveTo(c)**            |         |
-| **g.moveTo(c)**            |         |
-| **g.moveTo(g)**            |         |
-| **((Graphic)c).moveTo(g)** |         |
-| **((Circle)g).moveTo(c)**  |         |
+| Aufruf                     | Methode                                                                                                                                                                                                |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **c.moveTo(g)**            | because the two main methods are overriding, `c` is dynamic type `Circle` and chooses the Circle class.<br>The two Methods in `Circle` are overloading so the static type of g is Graphic --> Method 2 |
+| **c.moveTo(c)**            | Method 3                                                                                                                                                                                               |
+| **g.moveTo(c)**            | Method 2                                                                                                                                                                                               |
+| **g.moveTo(g)**            | Method 2                                                                                                                                                                                               |
+| **((Graphic)c).moveTo(g)** | Casting only changes the static type, not the dynamic type, so again it is a `Circle` with static type `Graphic` --> Method 2                                                                          |
+| **((Circle)g).moveTo(c)**  | Method 3                                                                                                                                                                                               |
