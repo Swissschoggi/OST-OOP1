@@ -21,7 +21,7 @@ public class Main {
 }
 ```
 **Wie lauten die vier Ausgaben?**
-Overloading
+*Overloading*
 
 | Ausgabe       | Ausgabe auf der Konsole                                                                                                                                             |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -32,3 +32,30 @@ Overloading
 #### Overloading / Overloading
 [[Week 6#Overriding]] 
 [[Week 6#Overloading]]
+
+#### Another exercise
+```Java
+class Graphic {
+	void moveTo(Graphic other) {
+		System.out.println("Method 1");
+	}
+}
+
+class Circle extends Graphic {
+	void moveTo(Graphic other) {
+		System.out.println("Method 2");
+	}
+}
+
+Circle c = new Circle(); //Dynamic Type: Circle
+Graphic g = new Circle(); //Dynamic Type: Circle
+```
+*Overriding*
+
+| Aufruf          | Methode |
+| --------------- | ------- |
+| **c.moveTo(g)** |         |
+|                 |         |
+|                 |         |
+|                 |         |
+|                 |         |
