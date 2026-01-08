@@ -45,17 +45,21 @@ class Circle extends Graphic {
 	void moveTo(Graphic other) {
 		System.out.println("Method 2");
 	}
+	void moveTo(Circle other) {
+		System.out.println("Method 3")
+	}
 }
 
 Circle c = new Circle(); //Dynamic Type: Circle
 Graphic g = new Circle(); //Dynamic Type: Circle
 ```
-*Overriding*
+*Overriding (runtime --> **dynamic types**)* + *Overloading (compile-time --> **static types**)*
 
-| Aufruf          | Methode |
-| --------------- | ------- |
-| **c.moveTo(g)** |         |
-|                 |         |
-|                 |         |
-|                 |         |
-|                 |         |
+| Aufruf                     | Methode |
+| -------------------------- | ------- |
+| **c.moveTo(g)**            |         |
+| **c.moveTo(c)**            |         |
+| **g.moveTo(c)**            |         |
+| **g.moveTo(g)**            |         |
+| **((Graphic)c).moveTo(g)** |         |
+| **((Circle)g).moveTo(c)**  |         |
