@@ -5,8 +5,7 @@ Ist was der Enduser sieht, sprich die Berechtigungen die er hat um in der Datenb
 Ist der Zusammenhang zwischen Realwelt und Datanbank, wird in ER-Modell dargestellt.
 
 #### Interne Ebene
-
-
+Ist die Phyische Speicherung der Daten, Zugriffsverfahren usw.
 
 ```mermaid
 graph TD
