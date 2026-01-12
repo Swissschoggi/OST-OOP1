@@ -6,6 +6,7 @@ Eine Tabelle ist in ersten Normalform (1. NF), falls die Wertebereiche der Attri
 | --- | -------------------- |
 | 1   | Produkt A, Produkt B |
 | 2   | Produkt C            |
+	
 **1.NF:**
 
 | id  | produkte  |
