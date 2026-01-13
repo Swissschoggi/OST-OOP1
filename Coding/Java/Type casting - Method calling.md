@@ -1,3 +1,4 @@
+
 ```Java
 class X {}
 class Y extends X {}
@@ -63,3 +64,18 @@ Graphic g = new Circle(); //Dynamic Type: Circle
 | **g.moveTo(g)**            | Method 2                                                                                                                                                                                               |
 | **((Graphic)c).moveTo(g)** | Casting only changes the static type, not the dynamic type, so again it is a `Circle` with static type `Graphic` --> Method 2                                                                          |
 | **((Circle)g).moveTo(c)**  | Method 3                                                                                                                                                                                               |
+#### Type casting primitive datatypes
+```Java
+int i = 1;
+long l = 2;
+float f = .1f;
+double d = 0.2;
+```
+
+| Ausdruck | Result             | Type    | Explanation                                |
+| -------- | ------------------ | ------- | ------------------------------------------ |
+| i / 2    | 0                  | int     | rounds to 0 and both are ints              |
+| i / 2.0  | 0.5                | double  | converts to double as 2.0 is a double      |
+| f + d    | .3                 | double  | the float will become a double             |
+| i == 1   | false (apparently) | boolean | no clue why this is false in the solutions |
+| f / 0    | infinity           | float   |                                            |
