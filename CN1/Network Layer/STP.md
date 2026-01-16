@@ -11,6 +11,7 @@ The default path cost is:
 | 10BaseT    | 100  |
 | 100BaseT   | 19   |
 | 1000BaseT  | 4    |
+
 The comparison Algorithm looks at:
 1. Lowest bridge ID *--> relevant for root bridge election*
 2. lowest root path cost
@@ -32,3 +33,8 @@ A designated port is the port within a collision Domain that has the lowest cost
 Every port on the other end of a collision Domain (basically a cable) that has a root port is a designated port.
 
 Every other port now is a **Blocking port**.
+
+#### Broadcast Domains
+Broadcast Domains show the limit of a broadcast message, L2 Switches and hubs forward Broadcasts but Routers and L3 Switches do not and hereby limit the Broadcast domain.
+#### Collision domain
+Collision domains work like a simple link between devices and show where collisions can occur in a network. Hubs count together with end devices as a collision domain, Switches and Routers have a collision domain on each connected Link.
