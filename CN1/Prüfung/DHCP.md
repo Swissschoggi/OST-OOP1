@@ -20,7 +20,7 @@ However DHCPv6 does **NOT USE BROADCAST**!!
 While DHCP is statefull, SLAAC is stateless and does not need a router for address configuration (only for prefix and subnet information).
 The Router Advertises the Prefix information and the client generates the Interface identifier that is unique in the subnet. Those two combined form the address of the client.
 
-1. The client creates an fe80::/10 link local address that is used to communicate on a Link level.
+1. The client creates an `fe80::/10` link local address that is used to communicate on a Link level.
 2. Client send a ROUTER DISCOVERY to `ff02::2` (all routers multicast).
 3. The Router responds with a RA (**Router Advertisement**) containing network prefix and configuration flags.
 4. The Client combines prefix from RA with interface identifier (EUI-64 or random).
