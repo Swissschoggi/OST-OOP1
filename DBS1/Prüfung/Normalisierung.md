@@ -1,5 +1,5 @@
 #### 1. Normalform
-Eine Tabelle ist in ersten Normalform (1. NF), falls die Wertebereiche der Attribute atomar (Jedes Feld genau einen Wert) sind.
+Eine Tabelle ist in ersten Normalform (1. NF), falls die Wertebereiche der Attribute atomar (Jedes Feld genau einen Wert) sind. Kein Mischen von Datentypen.
 **nicht 1.NF:**
 
 | id  | produkte             |
