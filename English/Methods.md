@@ -1,0 +1,3 @@
+- To describe _what_ was done, _how_, and _why_ so the study can be judged and replicated.
+- Style is clear, precise, and orderly. Often uses passive voice and specific collocations (e.g., "Data were collected," "A questionnaire was devised").
+- Description of materials, preparation, research protocol, measurements, calculations, and statistical tests.

@@ -1,0 +1,5 @@
+- Show how the topic is important
+- review literature
+- establish a gap in the existing research on this topic
+- State how this paper will fill the gap in this topic (purpose, research questions, hypotheses).
+- Outline the papers structure

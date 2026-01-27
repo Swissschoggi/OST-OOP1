@@ -1,0 +1,3 @@
+- Reporting Results (present findings with evidence like stats)
+- Commenting on Results (interpret meaning, compare to other studies)
+- No generalizations or assumptions
