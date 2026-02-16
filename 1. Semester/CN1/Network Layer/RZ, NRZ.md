@@ -1,4 +1,4 @@
-![[Pasted image 20260115171443.png]]
+![[1. Semester/Pasted image 20260115171443.png]]
 #### Return to Zero (RZ)
 Return to Zero basically means that the signal returns to zero Voltage after every bit transmitted.
 It has good self-clocking which means that a time can be established after every bit is sent.

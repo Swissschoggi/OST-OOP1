@@ -16,4 +16,4 @@ Eine Tabelle ist in ersten Normalform (1. NF), falls die Wertebereiche der Attri
 | 3   | Produkt C |
 
 #### 2. Normalform
-Eine Tabelle ist in der 1 Normalform wenn jeder Attribut voll vom [Primary-Key](Keys#Primary-Key) Abhängig ist.
+Eine Tabelle ist in der 1 Normalform wenn jeder Attribut voll vom [Primary-Key](Keys.md#Primary-Key) Abhängig ist.
