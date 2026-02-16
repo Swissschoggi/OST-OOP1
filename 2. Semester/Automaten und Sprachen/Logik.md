@@ -89,3 +89,57 @@ $x² + 2{b\over 2a}x + {b²\over 4a²} = {b²-4ac\over 4a²}$
 $(x+{b\over 2a}²)={b²-4ac\over 4a²}$ 
 $x= {-b\over 2a} + \sqrt{{b²-4ac\over 4a²}}$ 
 
+Induktionsbeweis:
+Prinzip:
+	- verankerung: $P(0)$
+	- Annahme: $P(n)$
+	- Induktionsschritt: $P(n+1)$
+
+Behauptung:
+	$P(n): \sum_{k=1}^n k={n(n+1)\over 2}$
+	1. $1$ einsetzen.
+	2. Formel korrekt für n
+	3. Beweis für n+1 (n+1 einsetzen)
+
+**Aufgabe**
+$\sum_{k=1}^n k²={n(n+1)(2n+1)\over 6}$
+1. $n=1$
+ ${1(1+1)(2*1+1)\over 6} = {2*3\over 6}= 1$
+2. stimmt
+3. $n+1$ einzetzen
+${(n+1)*((n+1)+1)(2(n+1)+1)\over 6}$ $= {(n²+2n+1+n+1)*(2n+3)\over 6}$ 
+
+
+Aussage A = $n³+5$ ungerade $,n \in N$ dann ist $n$ gerade.
+$\neg A =$ $n$ ist ungerade
+$n³ +5$ ist gerade wenn $n$ ungerade $\implies$ wiederspruch also ist die Aussage bewiesen.
+
+#### Alphabet und Wort
+**Alphabet**
+Eine nichtleere Menge $\sum$ heisst Alphabet. Die Elemente von $\sum$ heissen Zeichen.
+**Wort**
+Eine Zeichenkette der Länge $n$ ist ein n-Tupel in $\sum{n}=\sum \times ... \times \sum$. Ein Element von $\sum{n}$ heisst Wort der länge $n$.
+$(A, u, t, o, S, p, r) = AutoSpr$
+$a^3b^5 = aaabbbbb$
+$b^5a^3 = bbbbbaaa$
+
+Immer $\epsilon$ das **Leere Wort** beachten.
+**Aufgabe**
+	$\sum =$ {$0,1$} in $\sum{*}$ 
+	$\sum{*}=\epsilon,0,1,00,11,01,10...$ 
+
+**Wortlänge**
+- $|\epsilon| = 0$
+- $|01010|_0 =3$
+- $|01010|_1=2$
+- $|01010|_2=0$
+
+**Aufgabe**
+$L= (w \in \sum{*} ||w|_0 =2)$
+$\sum{*} = (00,001,010,100,0011...)$
+
+**Eine Teilmenge $L \subset \sum{*}$ heisst Sprache.**
+
+M eine “Maschine”: $L(M) = {w \in \sum{*} | \text{w wird von M akzeptiert}}$
+Zu jeder Maschine M gibt es eine Sprache $L(M)$
+	
