@@ -142,4 +142,3 @@ $\sum{*} = (00,001,010,100,0011...)$
 
 M eine “Maschine”: $L(M) = {w \in \sum{*} | \text{w wird von M akzeptiert}}$
 Zu jeder Maschine M gibt es eine Sprache $L(M)$
-	
