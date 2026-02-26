@@ -34,7 +34,7 @@ There can be multiple Bakcbone routers.
   Connecting a pair of routers directly.
 
 - **Broadcast networks**  
-  LANs where all routers can receive a single transmitted packet. There is a Designated Router (DR) and a Backup Designated Router (BDR).
+  LANs where all routers can receive a single transmitted packet. There is a Designated Router (DR) and a Backup Designated Router (BDR). Highest Router-ID is DR and second highest is BDR
 
 - **Non-Broadcast multi-access networks**  
   where more than two routers without broadcast capability. Needs extra configuration for OSPF. Also elects DR and BDR.
@@ -157,4 +157,6 @@ Equal cost multipath means that two paths have the same lowest cost.
 
 ---
 
-## Route selection
+## Cost calculation
+Reference bandwith can be found with `do show ip ospf`
+and the cost is calculated with $cost={b_{ref}\over b_{link}}={\text{reference badwith}\over\text{actual bandwith}}$ 
